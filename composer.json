@@ -1,0 +1,18 @@
+{
+    "name": "social-food-solutions/social-food-solutions",
+    "description": "food solutions",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Marcel Heller",
+            "email": "marcel.heller@synatix-gmbh.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SocialFoodSolutions\\": "src/"
+        }
+    }
+}
