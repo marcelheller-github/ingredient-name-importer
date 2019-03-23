@@ -29,3 +29,11 @@ Mutation tests:
 ``` bash
 $ ./tools/infection
 ```
+
+## Run static analyzer
+
+Run the static code analyzer:
+
+``` bash
+$ PHAN_DISABLE_XDEBUG_WARN=1 PHAN_ALLOW_XDEBUG=0 ./tools/phan
+```
