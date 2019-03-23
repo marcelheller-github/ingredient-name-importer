@@ -8,6 +8,9 @@ use PHPUnit\Framework\TestCase;
 
 class IngredientNameTest extends TestCase
 {
+    /**
+     * @covers \SocialFoodSolutions\IngredientName
+     */
     public function testCanGetIngredientName()
     {
         $ingredientName = IngredientName::from('Tomate');
@@ -16,6 +19,9 @@ class IngredientNameTest extends TestCase
         $this->assertEquals('Tomate', $ingredientName->asString());
     }
 
+    /**
+     * @covers \SocialFoodSolutions\IngredientName
+     */
     public function testThrowsExceptionWhenNameIsEmpty()
     {
         $this->expectException(InvalidValueException::class);

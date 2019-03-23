@@ -6,6 +6,10 @@ use PHPUnit\Framework\TestCase;
 
 class MemoryIngredientSourceTest extends TestCase
 {
+    /**
+     * @covers \SocialFoodSolutions\MemoryIngredientSource
+     * @uses \SocialFoodSolutions\IngredientName
+     */
     public function testHasSource()
     {
         $ingredientSource = new MemoryIngredientSource();

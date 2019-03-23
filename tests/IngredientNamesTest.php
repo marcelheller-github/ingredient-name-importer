@@ -8,6 +8,10 @@ use PHPUnit\Framework\TestCase;
 
 class IngredientNamesTest extends TestCase
 {
+    /**
+     * @covers \SocialFoodSolutions\IngredientNames
+     * @uses \SocialFoodSolutions\IngredientName
+     */
     public function testHasName()
     {
         $ingredientNames = new IngredientNames([

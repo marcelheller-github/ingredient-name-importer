@@ -8,6 +8,10 @@ use PHPUnit\Framework\TestCase;
 
 class IngredientDiscoveredEventTest extends TestCase
 {
+    /**
+     * @covers \SocialFoodSolutions\IngredientDiscoveredEvent
+     * @uses \SocialFoodSolutions\IngredientName
+     */
     public function testCanDiscoveredEvent()
     {
         $event = new IngredientDiscoveredEvent(IngredientName::from('gurke'));
