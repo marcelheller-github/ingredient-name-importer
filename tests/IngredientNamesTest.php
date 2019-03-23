@@ -8,7 +8,6 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \SocialFoodSolutions\IngredientNames
- * @uses \SocialFoodSolutions\IngredientName
  */
 class IngredientNamesTest extends TestCase
 {

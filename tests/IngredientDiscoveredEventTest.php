@@ -8,7 +8,6 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \SocialFoodSolutions\IngredientDiscoveredEvent
- * @uses \SocialFoodSolutions\IngredientName
  */
 class IngredientDiscoveredEventTest extends TestCase
 {

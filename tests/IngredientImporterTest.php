@@ -8,10 +8,6 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \SocialFoodSolutions\IngredientImporter
- * @uses \SocialFoodSolutions\MemoryIngredientSource
- * @uses \SocialFoodSolutions\IngredientNames
- * @uses \SocialFoodSolutions\IngredientName
- * @uses \SocialFoodSolutions\IngredientDiscoveredEvent
  */
 class IngredientImporterTest extends TestCase
 {

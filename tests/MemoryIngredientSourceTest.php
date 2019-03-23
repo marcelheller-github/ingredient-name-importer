@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \SocialFoodSolutions\MemoryIngredientSource
- * @uses \SocialFoodSolutions\IngredientName
  */
 class MemoryIngredientSourceTest extends TestCase
 {
