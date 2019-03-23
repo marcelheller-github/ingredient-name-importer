@@ -6,15 +6,15 @@ namespace SocialFoodSolutions;
 
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @covers \SocialFoodSolutions\IngredientImporter
+ * @uses \SocialFoodSolutions\MemoryIngredientSource
+ * @uses \SocialFoodSolutions\IngredientNames
+ * @uses \SocialFoodSolutions\IngredientName
+ * @uses \SocialFoodSolutions\IngredientDiscoveredEvent
+ */
 class IngredientImporterTest extends TestCase
 {
-    /**
-     * @covers \SocialFoodSolutions\IngredientImporter
-     * @uses \SocialFoodSolutions\MemoryIngredientSource
-     * @uses \SocialFoodSolutions\IngredientNames
-     * @uses \SocialFoodSolutions\IngredientName
-     * @uses \SocialFoodSolutions\IngredientDiscoveredEvent
-     */
     public function testCanImportIngredients(): void
     {
         $existingIngredientNames = new IngredientNames([

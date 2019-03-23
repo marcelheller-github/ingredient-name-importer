@@ -6,11 +6,11 @@ namespace SocialFoodSolutions;
 
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @covers \SocialFoodSolutions\IngredientName
+ */
 class IngredientNameTest extends TestCase
 {
-    /**
-     * @covers \SocialFoodSolutions\IngredientName
-     */
     public function testCanGetIngredientName(): void
     {
         $ingredientName = IngredientName::from('Tomate');
@@ -19,9 +19,6 @@ class IngredientNameTest extends TestCase
         $this->assertEquals('Tomate', $ingredientName->asString());
     }
 
-    /**
-     * @covers \SocialFoodSolutions\IngredientName
-     */
     public function testThrowsExceptionWhenNameIsEmpty(): void
     {
         $this->expectException(InvalidValueException::class);
