@@ -12,7 +12,7 @@ class IngredientNamesTest extends TestCase
      * @covers \SocialFoodSolutions\IngredientNames
      * @uses \SocialFoodSolutions\IngredientName
      */
-    public function testHasName()
+    public function testHasName(): void
     {
         $ingredientNames = new IngredientNames([
             IngredientName::from('Gurke'),

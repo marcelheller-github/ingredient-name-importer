@@ -11,7 +11,7 @@ class IngredientNameTest extends TestCase
     /**
      * @covers \SocialFoodSolutions\IngredientName
      */
-    public function testCanGetIngredientName()
+    public function testCanGetIngredientName(): void
     {
         $ingredientName = IngredientName::from('Tomate');
 
@@ -22,7 +22,7 @@ class IngredientNameTest extends TestCase
     /**
      * @covers \SocialFoodSolutions\IngredientName
      */
-    public function testThrowsExceptionWhenNameIsEmpty()
+    public function testThrowsExceptionWhenNameIsEmpty(): void
     {
         $this->expectException(InvalidValueException::class);
         $this->expectExceptionMessage('IngredientName must not be empty.');

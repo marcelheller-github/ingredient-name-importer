@@ -10,7 +10,7 @@ class MemoryIngredientSourceTest extends TestCase
      * @covers \SocialFoodSolutions\MemoryIngredientSource
      * @uses \SocialFoodSolutions\IngredientName
      */
-    public function testHasSource()
+    public function testHasSource(): void
     {
         $ingredientSource = new MemoryIngredientSource();
         $ingredientNames  = $ingredientSource->getIngredientNames();

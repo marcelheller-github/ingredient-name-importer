@@ -15,7 +15,7 @@ class IngredientImporterTest extends TestCase
      * @uses \SocialFoodSolutions\IngredientName
      * @uses \SocialFoodSolutions\IngredientDiscoveredEvent
      */
-    public function testCanImportIngredients()
+    public function testCanImportIngredients(): void
     {
         $existingIngredientNames = new IngredientNames([
             IngredientName::from('Apfel'),

@@ -12,7 +12,7 @@ class IngredientDiscoveredEventTest extends TestCase
      * @covers \SocialFoodSolutions\IngredientDiscoveredEvent
      * @uses \SocialFoodSolutions\IngredientName
      */
-    public function testCanDiscoveredEvent()
+    public function testCanDiscoveredEvent(): void
     {
         $event = new IngredientDiscoveredEvent(IngredientName::from('gurke'));
 
