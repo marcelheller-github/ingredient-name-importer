@@ -2,7 +2,7 @@
 
 ## Install Dependencies
 
-Dependencies have to be installed with composer:
+Dependencies have to be installed with [composer](https://getcomposer.org/):
 
 ``` bash
 $ composer install
@@ -10,7 +10,7 @@ $ composer install
 
 ## Install Dev Tooling
 
-Developement tools have to be installed with phive:
+Developement tools have to be installed with [phive](https://phar.io/#Install):
 
 ``` bash
 $ phive install
