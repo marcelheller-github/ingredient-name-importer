@@ -6,9 +6,12 @@ namespace SocialFoodSolutions;
 
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @covers \SocialFoodSolutions\IngredientImporter
+ */
 class IngredientImporterTest extends TestCase
 {
-    public function testCanImportIngredients()
+    public function testCanImportIngredients(): void
     {
         $existingIngredientNames = new IngredientNames([
             IngredientName::from('Apfel'),

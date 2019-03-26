@@ -7,9 +7,15 @@
         {
             "name": "Marcel Heller",
             "email": "marcel.heller@synatix-gmbh.de"
+        },
+        {
+            "name": "Maik Hilker",
+            "email": "maikhilker89@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.3"
+    },
     "autoload": {
         "psr-4": {
             "SocialFoodSolutions\\": "src/"

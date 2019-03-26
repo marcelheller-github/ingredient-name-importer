@@ -6,9 +6,12 @@ namespace SocialFoodSolutions;
 
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @covers \SocialFoodSolutions\IngredientNames
+ */
 class IngredientNamesTest extends TestCase
 {
-    public function testHasName()
+    public function testHasName(): void
     {
         $ingredientNames = new IngredientNames([
             IngredientName::from('Gurke'),

@@ -6,9 +6,12 @@ namespace SocialFoodSolutions;
 
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @covers \SocialFoodSolutions\IngredientDiscoveredEvent
+ */
 class IngredientDiscoveredEventTest extends TestCase
 {
-    public function testCanDiscoveredEvent()
+    public function testCanDiscoveredEvent(): void
     {
         $event = new IngredientDiscoveredEvent(IngredientName::from('gurke'));
 

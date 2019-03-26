@@ -4,9 +4,12 @@ namespace SocialFoodSolutions;
 
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @covers \SocialFoodSolutions\MemoryIngredientSource
+ */
 class MemoryIngredientSourceTest extends TestCase
 {
-    public function testHasSource()
+    public function testHasSource(): void
     {
         $ingredientSource = new MemoryIngredientSource();
         $ingredientNames  = $ingredientSource->getIngredientNames();
