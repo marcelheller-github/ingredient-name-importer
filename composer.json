@@ -14,11 +14,17 @@
         }
     ],
     "require": {
-        "php": "^7.3"
+        "php": "^7.3",
+        "ext-dom": "*"
     },
     "autoload": {
         "psr-4": {
             "SocialFoodSolutions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SocialFoodSolutions\\": "tests/"
         }
     }
 }
