@@ -11,7 +11,7 @@ final class IngredientName
 
     private function __construct(string $value)
     {
-        if ($value === ''){
+        if ($value === '') {
             throw new InvalidValueException('IngredientName must not be empty.');
         }
 
