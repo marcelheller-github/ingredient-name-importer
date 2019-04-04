@@ -37,3 +37,11 @@ Run the static code analyzer:
 ``` bash
 $ PHAN_DISABLE_XDEBUG_WARN=1 PHAN_ALLOW_XDEBUG=0 ./tools/phan
 ```
+
+## Run code style check
+
+Run the [code style check](https://github.com/squizlabs/PHP_CodeSniffer):
+
+``` bash
+$ ./tools/phpcs src tests
+```
